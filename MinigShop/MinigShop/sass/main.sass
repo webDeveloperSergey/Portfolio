@@ -1,0 +1,1120 @@
+@import "_font.sass"
+
+body
+    background: #F6F5F5
+    overlay: hidden
+
+
+/* REload Form */
+
+.BlockMessageForm
+  display: inline-block
+
+
+.LabelForMessage
+  font-family: "Open Sans Regular", sans-serif
+  color: white
+  margin-bottom: 8px
+  display: block
+
+
+.BlockNameForm
+  display: inline-block
+  width: 15rem
+  vertical-align: top
+
+
+.InputForName
+  margin: 11px 0px 16px 13px
+
+
+.TextAreaForm
+  width: 322px
+  height: 142px
+  max-width: 327px
+  max-height: 142px
+  border-radius: 10px
+  border: 1px solid #FFFFFF
+  font-family: "Open Sans Regular", sans-serif
+  font-size: 15px
+  padding: 8px 8px
+
+
+.Unit
+  margin: 11px 0px 16px 13px
+  width: 250px
+  height: 45px
+  font-family: "Open Sans Regular", sans-serif;
+  background: #FFFFFF
+  border: 1px solid #FFFFFF
+  border-radius: 10px
+  padding: 14px
+  font-size: 15px
+  color: #515151
+
+
+
+.Un
+  font-family: "Open Sans Regular",sans-serif
+  color: white
+  margin-left: 1rem
+
+
+
+.FileInput
+  display: none
+
+
+
+.form-group
+  position: relative
+  top: -14px
+
+
+
+.Keks
+  color: #ffffff
+
+
+.Attach
+  color: white
+  font-family: 'Open Sans Regular', sans-serif
+  position: relative
+  top: 8px
+
+
+.material-icons
+  position: relative
+  top: 14px
+  fill: white
+  transform: rotate(34deg)
+  color: antiquewhite
+
+
+.btnCount
+  width: 299px!important
+  height: 52px!important
+  cursor: pointer;
+
+
+
+
+.ContainerFromButton
+  justify-content: center
+  display: flex
+  margin-top: 2rem
+
+
+
+
+.mainInfo
+  display: flex
+  flex-direction: column
+
+  align-items: center
+
+
+.containerAreaOrder
+  display: flex
+  justify-content: center
+
+
+.NMB
+  margin-top: 2rem
+
+
+
+.OrderNM
+  width: 288px
+  height: 52px
+  border-radius: 5px
+  border: 1px solid #0000001c
+  background: #fbfbfb
+  font-family: "Open Sans Regular", sans-serif
+  font-size: 18px
+  padding: 13px
+
+
+.OrderMess
+  width: 322px
+  height: 142px
+  max-width: 327px
+  max-height: 142px
+  border-radius: 10px
+  border: 1px solid #FFFFFF
+  font-family: "Open Sans Regular", sans-serif
+  font-size: 15px
+  padding: 8px 8px
+
+
+#SendOrderText
+  text-align: center
+  font-size: 35px
+  color: #fff
+  font-family: 'Bebas Neue Bold', sans-serif
+
+
+header
+   margin-top: 22px
+
+.header__logo
+   display: inline-block
+   vertical-align: super
+
+
+.header__text
+   display: inline-block
+   font-family: "Proxima Nova Regular", sans-serif
+   margin-left: 22px
+   vertical-align: super
+   font-weight: 500
+   font-size: 12px
+
+.header__num
+   font-family: "Proxima Nova Bold", sans-serif
+   margin-right: 27px
+   vertical-align: super
+   font-weight: 700
+   font-size: 20px
+   display: inline-block
+   &::before
+        content: url("../img/header/call.png")
+        margin-right: 1rem
+        position: absolute
+        top: 20px
+        left: -10px
+
+.orderCall
+    font-size: 14px
+
+.btn
+   font-family: "Proxima Nova Bold", sans-serif
+   text-align: center
+   border-radius: 50px
+   border: 0
+   vertical-align: bottom
+   font-weight: 700
+   color: #fff
+   background-color: #EF0033
+   height: 40px
+   width: 196px
+   cursor: pointer
+   text-transform: uppercase
+
+
+.header__btn
+   display: inline-block
+
+.header__numImg
+    display: none
+
+
+.overlay
+   position: absolute
+   width: 100%
+   height: 100vh
+   top: 0
+   left: 0
+   display: none
+
+
+.popup
+   position: absolute
+   width: 30rem
+   height: 35rem
+   left: 50%
+   top: 51%
+   transform: translate(-50%, -50%)
+   background-color: #fff
+   color: #fff
+   box-sizing: border-box
+   z-index: 2
+   border-radius: 10px
+
+.Plasha
+   width: 480px
+   height: 6rem
+   background: #bb2746
+   position: relative
+   top: -29px
+   border-radius: 13px 13px 0 0
+   padding: 3px
+
+.close-popup
+   position: absolute
+   top: -13px
+   right: 26px
+   width: 15px
+   height: 23px
+   cursor: pointer
+   &::before
+      content: ""
+      background-color: #fff
+      position: absolute
+      height: 1px
+      width: 31px
+      top: 11px
+      transform: rotate(-45deg)
+      left: -4px
+
+   &:after
+      content: ""
+      background-color: #fff
+      position: absolute
+      height: 1px
+      width: 31px
+      top: 11px
+      transform: rotate(45deg)
+      left: -4px
+
+/*===================================*/
+.Intro-Section
+   background: url('../img/header/intro-bg.jpg')
+   background-repeat: no-repeat
+   background-position: center
+   background-size: cover
+   height: 43rem
+
+.intro__bg
+   height: 711px
+   display: inline-block
+
+.intro-title
+   font-family: 'Bebas Neue Bold', sans-serif
+   text-transform: uppercase
+   color: #fff
+   width: 36rem
+   font-size: 60px
+   font-weight: 700
+   margin-bottom: 0
+
+#Test
+   width: 38rem
+   height: 43rem
+
+.MarkText
+   margin-top: 10px
+   margin-bottom: 10px
+   font-family: "Open Sans Regular",sans-serif
+   font-size: 25px
+   color: white
+   &::before
+      content: url("../img/svg/Сheckmark.svg")
+      margin-right: 1rem
+
+
+.InMess
+   width: 322px
+   height: 142px
+   max-width: 327px
+   max-height: 142px
+   border-radius: 10px
+   border: 1px solid #FFFFFF
+   float: left
+   font-family: "Open Sans Regular",sans-serif
+   font-size: 15px
+   padding: 8px 8px
+   margin: -21px 0
+
+.TopLab
+   margin-top: 23px
+   position: relative
+   top: -26px
+
+.LabelForFirstForm
+   font-family: "Open Sans Regular",sans-serif
+   color: white
+   font-size: 15px
+
+.InputForFirstForm
+   width: 250px
+   height: 45px
+   font-family: "Open Sans Regular",sans-serif
+   background: #FFFFFF
+   border: 1px solid #FFFFFF
+   box-sizing: border-box
+   border-radius: 10px
+   margin-left: 0.6rem
+   padding: 14px
+   font-size: 15px
+   color: #515151
+
+#PushDownForm
+   padding-bottom: 20px
+
+.InMov
+   margin: 0 1rem
+   position: relative
+   top: -9px
+
+.form-group-two
+   position: relative
+   top: -38px
+
+.FileInput
+   display: none
+
+.form-group
+   position: relative
+   top: -14px
+
+.Keks
+   color: #ffffff
+
+.Attach
+   color: white
+   font-family: 'Open Sans Regular', sans-serif
+   position: relative
+   top: 8px
+
+.material-icons
+   position: relative
+   top: 14px
+   fill: white
+   color: antiquewhite
+   transform: rotate(36deg)
+
+
+.ContainerFromButton
+   display: flex
+   justify-content: center
+   margin-top: 2rem
+
+
+.OrderForm
+   display:flex
+   justify-content: center
+
+.mainInfo
+   display: flex
+   flex-direction: column
+   align-items: center
+
+.containerAreaOrder
+   display: flex
+   justify-content: center
+
+.OrderNM
+   width: 288px
+   height: 52px
+   border-radius: 5px
+   border: 1px solid #0000001c
+   background: #fbfbfb
+   font-family: "Open Sans Regular",sans-serif
+   font-size: 18px
+   padding: 13px
+
+.OrderMess
+   width: 322px
+   height: 142px
+   max-width: 327px
+   max-height: 142px
+   border-radius: 10px
+   border: 1px solid #FFFFFF
+   font-family: "Open Sans Regular",sans-serif
+   font-size: 15px
+   padding: 8px 8px
+
+#SendOrderText
+   text-align: center
+   font-size: 35px
+   color: #fff
+   font-family: 'Bebas Neue Bold', sans-serif
+
+.NMB
+   margin-top: 2rem
+
+.example-2
+    display: none
+
+.btnOrder
+   height: 50px
+   width: 293px
+   background-color: #F02651
+   font-size: 24px
+   border-radius: 8px
+
+/*====================================================*/
+
+.whowe
+    margin-top: 75px
+    margin-bottom: 75px
+
+.whoweTitle
+    font-family: 'Open Sans ExtraBold', sans-serif
+    font-size: 36px
+
+.whoWeItemMob
+    display: none
+
+.whoWeItem
+    text-align: center
+    margin-top: 15px
+
+.whoWeItem2
+
+
+.whoweName
+    font-family: 'Open Sans ExtraBold', sans-serif
+    font-size: 15px
+    margin-bottom: -5px
+
+
+.whoWeTextOne
+    font-family: 'Open Sans Italic', sans-serif
+    font-size: 15px
+    opacity: .7
+
+.whoweTitle
+    margin-bottom: 31px
+
+.whoweTitleInvisiable
+    opacity: 0
+
+.whoWeTextTwo
+    font-family: 'Open Sans Regular', sans-serif
+    font-size: 15px
+    line-height: 1.5
+    &::before
+      content: url("../img/whowe/check.png")
+      margin-right: 1rem
+
+.marginText
+    margin-left: 30px
+
+
+/*=================================================*/
+
+.title
+    font-family: 'Open Sans ExtraBold', sans-serif
+    font-size: 36px
+
+.title--white
+    color: #fff
+    margin: 60px 0
+
+.wedo
+   background: url('../img/sell/sell.jpg')
+   background-repeat: no-repeat
+   background-position: center
+   background-size: cover
+   height: 40rem
+   margin-bottom: 200px
+
+.feature
+    background-color: #fff
+    text-align: center
+    margin-right: 47px
+    padding-top: 36px
+    padding-bottom: 20px
+    width: 310px
+    height: 182px
+
+.featureLeft
+    border-radius:  10px 0 0 10px
+
+.featureRight
+    border-radius:  0 10px 10px 0
+
+.featuresItem
+    margin: 40px 70px
+
+.featuresText
+     font-family: 'Open Sans Regular', sans-serif
+     font-size: 16px
+
+.btn--sell
+    width: 275px
+    height: 50px
+    margin-top: 100px
+    font-size: 14px
+
+.wedoAsic
+    margin-top: 50px
+    margin-bottom: 175px
+
+.wedoAsicMob
+    display: none
+
+/*==================================================\*/
+
+.garant
+    margin-bottom: 88px
+    background: #F6F5F5
+
+.garantWorker
+    position: absolute
+
+.garantTitle
+    margin-top: 90px
+    margin-bottom: 72px
+
+.garantSubtitle
+    font-family: 'Open Sans ExtraBold', sans-serif
+    font-size: 18px
+
+.garantText
+    font-family: 'Open Sans Regular', sans-serif
+    font-size: 16px
+    width: 500px
+
+.garantItem
+    position: relative
+    line-height: 1.3
+    margin-left: 78px
+    padding-bottom: 21px
+    &::before
+      content: url("../img/sell/check2.png")
+      margin-right: 1rem
+      position: absolute
+      left: -50px
+      top: 2px
+
+
+/*==============================================*/
+
+
+.titleForm
+    margin-top: 90px
+    text-align: center
+    width: 76rem
+    font-size: 37px
+    margin-bottom: 10px
+    line-height: 1.5
+
+#TakeCountText
+   font-family: 'Open Sans Regular', sans-serif
+   color: white
+   font-size: 30px
+   margin-top: 0.5rem
+   text-align: center
+   margin-bottom: 100px
+
+.ContainerFromButton
+    display: inline-block
+    margin-top: 27px
+    margin-left: 40px
+
+
+#id
+    &::before
+        content: url("../img/header/call2.png")
+        margin-right: 1rem
+
+
+
+
+/*================================================*/
+
+.client
+    margin-bottom: 70px
+
+.clientTitle1
+    margin-bottom: 60px
+
+.clientItem
+    width: 949px
+    height: 140px
+    background-color: #fff
+    border-radius: 10px
+    margin-bottom: 30px
+    padding-left: 37px
+    display: flex
+    align-items: center
+
+
+.clientTitle
+    font-family: 'Open Sans ExtraBold', sans-serif
+    display: inline-block
+    font-size: 20px
+    margin: 0 80px 0 20px
+    position: relative
+    &::before
+      content: url("../img/client/Line.png")
+      margin-right: 1rem
+      position: absolute
+      top: -49px
+      left: 130px
+
+
+.clientText
+    display: inline-block
+    font-family: 'Open Sans Regular', sans-serif
+    font-size: 16px
+
+.clientTitleFirst
+    &::before
+        left: 122px
+
+.clientTitleLast
+    &::before
+        top: -60px
+
+.clientTextSecond
+    margin-left: 20px
+
+.clientTextLast
+    margin-left: -20px
+
+/*==============================================*/
+
+
+// Below meats contancs
+.place_meat
+    display: flex
+    width: 1145px
+    height: 350px
+    margin-bottom: 100px
+    margin-top: 100px
+    background-color: #fff
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1)
+    border-radius: 10px 0px 0px 10px
+    padding: 0px 0 0 30px
+
+.info_text
+    margin-left: 3rem
+    font-size: 18px
+
+
+.our_contact
+    font-family: 'Open Sans ExtraBold', sans-serif
+    font-size: 34px
+    font-size: 36px
+    margin-top: 20px
+
+#makerMap
+    font-family: 'Open Sans Regular', sans-serif
+    font-size: 16px
+    color: black
+    &::before
+        position: absolute
+        content: url('../img/meat/markermap.svg')
+        left: 2.4rem
+
+#calendar
+    font-family: 'Open Sans Regular', sans-serif
+    font-size: 16px
+    color: black
+    &::before
+        position: absolute
+        content: url('../img/meat/calendar.svg')
+        left: 2.4rem
+
+#write_meat
+    font-family: "Proxima Nova Bold", sans-serif
+    background-color: #EF0033
+    width: 299px
+    height: 52px
+    border-radius: 50px
+    color: white
+    text-transform: uppercase
+    border: none
+    font-weight: bold
+    font-size: 15px
+    margin-top: 1.5rem
+    cursor: pointer
+
+.map
+    margin-left: auto
+
+.mapMob
+    display: none
+
+/*==============================================*/
+
+
+
+footer
+    background-color: #242424
+    padding-top: 20px
+
+.footer__header-num
+    color: #fff
+    &::before
+        content: url("../img/header/call2.png")
+        margin-right: 1rem
+
+
+
+.footer__header-text
+    color: #fff
+
+.footerLink
+    font-family: 'Open Sans Regular', sans-serif
+    font-size: 16px
+    color: #0B98FF
+    margin-left: -20px
+
+@media(max-width: 1755px)
+    .garantWorker
+        height: 747px
+        width: 742px
+
+
+@media(max-width: 1210px)
+
+    .Intro-Section
+        height: 60rem
+
+    .ContainerFromButton
+        margin-left: -51px
+
+    .intro__bg
+        display: none
+
+    .Preload
+        height: 40rem
+
+    .titleForm
+        text-align: center
+        width: 60rem
+
+    .ContainerFromButton
+        margin-left: 50px
+
+
+    .btnOrder
+      height: 50px
+      width: 293px
+      background-color: #F02651
+      font-size: 24px
+      border-radius: 8px
+
+
+    .intro__bg
+        display: none
+
+    .feature
+        border-radius: 10px
+        margin-bottom: 10px
+        margin-left: 80px
+
+    .wedoAsic
+        display: none
+
+    .wedo
+       height: 45rem
+
+    .btn--sell
+        margin-left: -400px
+        margin-top: 50px
+
+    .garantWorker
+        display: none
+
+
+    .garantTitle
+        margin-top: -100px
+
+    #ajax-contact-Form
+        text-align: center
+        margin-left: -100px
+
+
+
+
+
+@media(max-width: 995px)
+
+    .titleForm
+        width: 45rem
+        font-size: 30px
+
+    #TakeCountText
+        font-size: 25px
+    .Preload
+        height: 41rem
+
+    .whoweTitle
+        text-align: center
+
+    .whoWeTextTwo
+        text-align: center
+
+    .whoWeTextTwoIpad
+        margin-left: 8px
+
+    .whoWeTextTwoIpad2
+        margin-left: -178px
+
+    .whoWeTextTwoIpad3
+        margin-left: 13px
+
+    .marginTextIpad
+        display: block
+        margin-left: -207px
+
+    .feature
+        margin-left: 200px
+
+    .wedo
+       height: 65rem
+
+    .btn--sell
+        margin-left: -92px
+        margin-top: 30px
+
+    .clientItem
+        width: 744px
+        height: 140px
+
+
+@media(max-width: 770px)
+
+    .header__text
+        display: none
+
+    .header__btn
+        margin-right: 69px
+
+    .titleForm
+        width: 33rem
+        font-size: 23px
+
+    #TakeCountText
+        font-size: 20px
+
+    .ContainerFromButton
+        margin-left: -10px
+
+    .footerLink
+        font-size: 16px
+
+    .footerText
+        display: none
+
+
+
+@media(max-width: 650px)
+
+    .header__numImg
+        display: block
+        position: absolute
+        left: -40px
+        top: -23px
+
+    .header__text
+        display: none
+
+    .header__num
+        display: none
+        margin-left: 4px
+
+    .header__logo
+        padding-left: 20px
+
+    .header__btn
+        display: none
+
+
+
+    .Intro-Section
+        padding-left: 20px
+
+
+    .intro-title
+        margin-bottom: 40px
+        font-size: 40px
+        width: 350px
+
+
+    .MarkText
+        font-size: 20px
+        width: 300px
+        margin-bottom: 20px
+
+    .Unit
+        width: 306px
+
+    .MarkTextSpan
+        margin-left: 38px
+        margin-bottom: 30px
+
+    .BlockNameForm
+        margin-left: -9px
+    .footerForm
+        margin-left: -108px
+
+    .ContainerFromButton
+        padding-left: 13px
+
+    .example-1
+        display: none
+
+    .example-2
+        display: block
+        margin: 7px 0 20px 12px
+
+
+
+
+
+
+    .whoWeItemDesc
+        display: none
+
+    .whoWeItemMob
+        display: block
+
+    .whoWeTextMob
+        width: 500px
+
+    .whoWeItem2
+        text-align: left
+        margin-top: -100px
+
+
+    .whoWeTextPhone
+        width: 300px
+        margin-left: 20px
+
+    .whoWeTextPhone2
+        margin-left: -38px
+
+    .whoWeTextPhone3
+        margin-left: 24px
+
+
+
+
+
+
+    .title
+        text-align: center
+        width: 300px
+        font-size: 30px
+
+    .feature
+        border-radius: 0
+        margin-bottom: 2px
+        margin-left: 46px
+        margin-right: 0
+        width: 277px
+
+
+    .featureLeft
+        border-radius:   10px 10px 0 0
+
+    .featureRight
+        border-radius:  0 0 10px 10px
+
+    .btn--sell
+        margin-left: 45px
+        margin-bottom: 50px
+
+    .wedoAsicMob
+        display: block
+        margin-left: 30px
+
+
+    .wedo
+        height: 75rem
+
+    .garantTitle
+        margin-top: -25px
+        text-align: left
+        margin-left: 20px
+
+    .garantItem
+        margin-left: 73px
+
+    .garantText
+        width: 262px
+
+
+
+    .clientTitle
+        &::before
+          content: ""
+
+    .clientItem
+        display: block
+        text-align: center
+        padding: 10px
+        width: 344px
+        height: 165px;
+
+    .clientImg
+        padding-left: 44px
+
+
+    .clientText
+        display: inline-block
+        font-family: 'Open Sans Regular', sans-serif
+        font-size: 14px;
+        text-align: left
+
+    .clientTitle
+        margin-bottom: 15px
+
+    .clientTextSecond
+        margin-bottom: 20px
+
+
+    .clientTitleLast
+       padding-top: 20px
+
+    .clientTextLast
+        margin-bottom: 10px
+        margin-left: 20px
+
+    .clientItem
+        margin-left: -11px
+
+    .clientItem2
+        margin-left: 5px
+
+    .titleForm
+        margin-top: 41px
+        width: 20rem
+        font-size: 21px
+
+    #TakeCountText
+        font-size: 18px
+        width: 20rem
+        line-height: 1.5
+        margin-bottom: 60px
+
+    #ajax-contact-Form
+        width: 312px
+        height: 101px
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        margin-left: 0
+
+    .Preload
+        height: 40rem
+
+    /*.ContainerFromButton
+        margin-left: -64px*/
+
+
+    .header-num__mob
+        display: block
+        margin-left: 6px
+
+    .footer__header-num
+        margin-left: 39px
+        &::before
+            content: url(../img/header/call2.png)
+            left: 32px
+
+
+
+    .btnFooter
+        margin-left: -31px
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "font.css",
+	"sources": [
+		"../sass/font.sass"
+	],
+	"sourcesContent": [
+		"@font-face {\n   font-family: 'Open Sans Regular';\n   src: url('/fonts/OpenSans/OpenSans-Regular.eot');\n   src: url('/fonts/OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-: opentype'),\n   url('/fonts/OpenSans/OpenSans-Regular.woff') format('woff'),\n   url('/fonts/OpenSans/OpenSans-Regular.ttf') format('truetype') {}\n   font-weight: normal;\n   font-style: normal; }\n\n@font-face {\n   font-family: 'Proxima Nova Bold';\n   src: url('/fonts/ProximaNova/ProximaNova-Bold.eot');\n   src: url('/fonts/ProximaNova/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),\n   url('/fonts/ProximaNova/ProximaNova-Bold.woff') format('woff'),\n   url('/fonts/ProximaNova/ProximaNova-Bold.ttf') format('truetype') {}\n   font-weight: normal;\n   font-style: normal; }\n\n@font-face {\n   font-family: 'Proxima Nova Regular';\n   src: url('/fonts/ProximaNova/ProximaNova-Regular.eot');\n   src: url('/fonts/ProximaNova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),\n   url('/fonts/ProximaNova/ProximaNova-Regular.woff') format('woff'),\n   url('/fonts/ProximaNova/ProximaNova-Regular.ttf') format('truetype') {}\n   font-weight: normal;\n   font-style: normal; }\n\n\n@font-face {\n   font-family: 'Bebas Neue Bold';\n   src: url('/fonts/BebasNeue/BebasNeueBold.eot');\n   src: url('/fonts/BebasNeue/BebasNeueBold.eot?#iefix') format('embedded-opentype'),\n   url('/fonts/BebasNeue/BebasNeueBold.woff') format('woff'),\n   url('/fonts/BebasNeue/BebasNeueBold.ttf') format('truetype') {}\n   font-weight: normal;\n   font-style: normal; }\n"
+	],
+	"names": [],
+	"mappings": "AAAA,UAAU;EACP,WAAW,EAAE,mBAAmB;EAChC,GAAG,EAAE,2CAA2C;EAChD,GAAG,EAAE,kDAAkD,CAAC,6BAA6B,EACrF,4CAA4C,CAAC,cAAc,EAC3D,2CAA2C,CAAC,kBAAkB;EAC9D,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;;;AAErB,UAAU;EACP,WAAW,EAAE,mBAAmB;EAChC,GAAG,EAAE,8CAA8C;EACnD,GAAG,EAAE,qDAAqD,CAAC,2BAA2B,EACtF,+CAA+C,CAAC,cAAc,EAC9D,8CAA8C,CAAC,kBAAkB;EACjE,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;;;AAErB,UAAU;EACP,WAAW,EAAE,sBAAsB;EACnC,GAAG,EAAE,iDAAiD;EACtD,GAAG,EAAE,wDAAwD,CAAC,2BAA2B,EACzF,kDAAkD,CAAC,cAAc,EACjE,iDAAiD,CAAC,kBAAkB;EACpE,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;;;AAGrB,UAAU;EACP,WAAW,EAAE,iBAAiB;EAC9B,GAAG,EAAE,yCAAyC;EAC9C,GAAG,EAAE,gDAAgD,CAAC,2BAA2B,EACjF,0CAA0C,CAAC,cAAc,EACzD,yCAAyC,CAAC,kBAAkB;EAC5D,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM"
+}
