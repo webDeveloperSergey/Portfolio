@@ -651,8 +651,13 @@ span {
   width: 291px;
 }
 
+.send:hover.send img {
+  padding-left: 130px;
+}
+
 .send img {
   padding-top: 5px;
+  padding-left: 5px;
 }
 
 .soc-icon {
