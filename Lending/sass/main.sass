@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5
 	margin: 0
 	padding: 0
 
+img
+	display: block
+	max-width: 100%	
+
 /*----------------------------------------------------------------*/
 
 /*header*/
@@ -138,9 +142,17 @@ span
 	
 
 .features-tag
-	width: 343px
+	display: flex
+	flex-direction: column
 	text-align: center
 	cursor: pointer
+	margin-right: 20px
+
+.features-tag img
+	width: 80px
+	height: 80px
+	margin: 0 auto
+	margin-bottom: 30px
 
 .features-tag h4
 	font-weight: 500
@@ -193,9 +205,9 @@ span
 /*section-4*/
 
 .section-4
-	display: flex
+	display: grid
+	grid-template-columns: repeat(1, 1fr)
 	align-items: center
-	flex-direction: column
 	background-image: url(../img/bg-4.jpg)
 
 
@@ -206,6 +218,14 @@ span
 	width: 90%
 	color: #fff
 	margin-top: 111px
+	margin: 0 auto
+	padding-top: 100px
+
+.worker
+	margin-right: 30px
+	& img
+		margin: 0 auto
+		margin-bottom: 30px
 
 
 .worker h3
@@ -223,9 +243,12 @@ span
 	opacity: .5
 	line-height: 1.5
 	
-
-.partners img
-	padding: 100px	
+.partners
+	margin: 100px 0
+	display: flex
+	justify-content: space-around
+	& img
+		margin-right: 30px
 /*----------------------------------------------------------------*/
 
 /*section-5*/
@@ -233,6 +256,8 @@ span
 .section-5
 	text-align: center 
 	background-color: #F6F5F3
+	& img
+		margin: 0 auto
 
 .section-5 h3
 	text-transform: uppercase
@@ -296,6 +321,7 @@ span
 	border: 1px solid #E2E1E2
 	border-radius: 3px
 	margin-right: 30px
+	margin-bottom: 30px
 	
 .btn-2
 	background-color: $m-color
@@ -341,8 +367,7 @@ span
 /*section-7*/
 .section-7
 	display: flex
-	align-items: center
-	flex-direction: column
+	justify-content: center
 
 
 .info 
@@ -352,6 +377,7 @@ span
 	width: 90%
 	margin-top: 98px
 	margin-bottom: 100px
+	flex-wrap: wrap
 
 
 /*info-1*/
@@ -442,4 +468,87 @@ span
 	display: flex
 	justify-content: space-around
 	margin-top: 15px
+	
+
+@media (max-width: 1200px)
+	header 
+		min-height: 50vh;
+		& h1 
+			font-size: 46px	
+
+	.section-1 img
+		display: none
+
+	.features
+		flex-wrap: wrap
+		&-tag
+			max-width: 335px
+
+	.text-1
+		max-width: 800px
+		padding: 0
+		margin: 100px auto
+
+	.section-3 
+		background-image: none
+		justify-content: center
+		& img
+			display: none	
+
+	.workers
+		flex-wrap: wrap
+
+	.worker
+		margin-bottom: 40px
+
+	.partners
+		padding: 0 30px
+		flex-wrap: wrap
+		& img
+			margin-bottom: 70px	
+
+	.info-3, .info-2
+		margin-top: 30px
+		margin-right: 30px
+
+	.info-4
+		margin-top: 60px
+
+@media ( max-width: 600px )
+	header
+		min-height: 70vh
+
+	h1, .section-1, .section-3, .section-5
+		padding: 0 30px
+
+	header h1
+		font-size: 40px	
+
+	.arw 
+		& img
+			display: none
+	.text-arw
+		padding: 0
+		margin: 20px auto
+
+	.form input
+		margin-right: 0	
+
+	.form p
+		padding: 0 30px
+
+	.worker
+		margin-right: 0
+
+	.partners img 
+		margin-right: 0
+
+	.features-tag
+		height: 300px
+
+	.feat-text h3
+		margin-top: 50px	
+
+	
+
 	
