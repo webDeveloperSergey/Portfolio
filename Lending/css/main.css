@@ -40,6 +40,7 @@ body {
           box-sizing: border-box;
   font-family: 'Exo-flex', sans-serif;
   font-size: 16px;
+  background-color: #fff;
 }
 
 h1, h2, h3, h4, h5 {
