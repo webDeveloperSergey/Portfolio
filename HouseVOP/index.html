@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HouseVOP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__wrap">
+        <div class="logo">
+          <img src="img/logo.png" alt="HouseVOP">
+          <span class="logo__title">жилой комплекс</span>
+        </div>
+        <nav class="header__nav" id="nav">
+          <a href="" class="header__link">О комплексе</a>
+          <a href="" class="header__link">Район</a>
+          <a href="" class="header__link">Каталог квартир</a>
+          <a href="" class="header__link">Ипотека</a>
+          <a href="" class="header__link">Контакты</a>
+        </nav>
+        <div class="burger" id="burger">
+          <div class="burger__item"></div>
+        </div>
+      </div>
+      <div class="header__intro">
+        <h1 class="header__title">Жилой комплекс в историческом центре</h1>
+        <div class="scroll-down" data-scroll="#features">
+          <div class="mouse">
+            <span></span>
+          </div>
+          <div class="arrow">
+            <span></span>
+          </div>
+        </div>
+        <div class="header__info">
+          <span class="header__info-text">Наб. реки Фонтанки 10-15</span>
+          <span class="header__info-text">8 (812) 123-45-67</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="features__wrap">
+        <div class="features__item">
+          <img src="img/bench.png" alt="Bench">
+          <div class="features__info">Рядом исторические парки и скверы</div>
+        </div>
+        <div class="features__item">
+          <img src="img/building.png" alt="Building">
+          <div class="features__info">Полностью обустроенный</div>
+        </div>
+        <div class="features__item">
+          <img src="img/fountain.png" alt="Fountain">
+          <div class="features__info">10 фонтанов на территории</div>
+        </div>
+        <div class="features__item">
+          <img src="img/bicycle.png" alt="Bicycle">
+          <div class="features__info">6 км <br> велодорожек</div>
+        </div>
+        <span class="page-count page-count--two">II</span>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="flats">
+    <div class="container">
+      <span class="page-count page-count--three">III</span>
+      <h2 class="flats__title title">Наши квартиры</h2>
+      <div class="flats__wrap">
+        <figure class="flats__card">
+          <img src="img/flat-1.jpg" alt="Flat-1" class="flats__card-pic">
+          <figcaption class="flats__card-title">Лофт — 3 этажа</figcaption>
+        </figure>
+        <figure class="flats__card">
+          <img src="img/flat-2.jpg" alt="Flat-1" class="flats__card-pic">
+          <figcaption class="flats__card-title">Лофт — 2 этажа</figcaption>
+        </figure>
+        <figure class="flats__card">
+          <img src="img/flat-1.jpg" alt="Flat-1" class="flats__card-pic">
+          <figcaption class="flats__card-title">Лофт — 3 этажа</figcaption>
+        </figure>
+        <figure class="flats__card">
+          <img src="img/flat-2.jpg" alt="Flat-1" class="flats__card-pic">
+          <figcaption class="flats__card-title">Лофт — 2 этажа</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="form">
+    <div class="container">
+      <h2 class="form__title title">Наши квартиры</h2>
+      <div class="form__wrap">
+        <div class="form__item">
+          <p class="form__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+        </div>
+        <div class="form__item">
+          <form action="" class="form__form">
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Ваш телефон">
+            <span class=form__info>*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</span>
+            <button class="form__btn btn">Посмотреть район</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="video">
+    <div class="container">
+      <div class="video__wrap">
+        <video src="img/video.mp4" muted poster="img/video-2.png" id="video"></video>
+        <div class="overlay"></div>
+        <a href="#" class="play-btn" id="play-btn"><img src="img/play-button.svg" alt=""></a>
+        <a href="#" class="close-btn" id="close-btn"><img src="img/close-button.svg" alt=""></a>
+        <span class="page-count page-count--foth">IV</span>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="map">
+    <div class="container">
+      <h2 class="map__title title">Район на карте</h2>
+      <div class="map__wrap">
+        <span class="page-count page-count--fifth">V</span>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A324facf486f114665d51308a81da8c4f3f9cf4e6ce9d0e929a18a1b8ccefd127&amp;width=100%&amp;height=358&amp;lang=ru_RU&amp;scroll=true"></script>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="question">
+    <div class="container">
+      <h2 class="question__title title">Есть вопросы?</h2>
+      <div class="question__wrap">
+        <form action="" class="question__form">
+          <span class=question__info>*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</span>
+          <input type="text" placeholder="Ваше имя">
+          <input type="text" placeholder="Ваш телефон">
+          <button class="question__btn btn">Посмотреть район</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrap">
+
+        <div class="logo">
+          <img src="img/logo.png" alt="HouseVOP">
+          <span class="logo__title">жилой комплекс</span>
+        </div>
+
+        <div class="footer__item footer__item--hover">
+          <a href="#" class="footer__link">О комплексе</a>
+          <a href="#" class="footer__link">Район</a>
+          <a href="#" class="footer__link">Каталог квартир</a>
+          <a href="#" class="footer__link">Ипотека</a>
+          <a href="#" class="footer__link">Контакты</a>
+        </div>
+
+        <div class="footer__item">
+          <a href="#" class="footer__link">О комплексе</a>
+          <a href="#" class="footer__link">Район</a>
+          <a href="#" class="footer__link">Каталог квартир</a>
+          <a href="#" class="footer__link">Ипотека</a>
+          <a href="#" class="footer__link">Контакты</a>
+        </div>
+
+        <div class="footer__item">
+          <a href="#" class="footer__link">Адрес: <span class="bold">Наб. реки Фонтанки 10-15</span></a>
+          <a href="#" class="footer__link">Телефон: <span class="bold">8 (812) 123-45-67</span></a>
+          <a href="#" class="footer__link">Отдел продаж: <span class="bold"> 10:00 - 20:00</span></a>
+          <a href="#" class="footer__link">E-mail: <span class="bold bold--accent">vip@housevip.ru</span></a>
+          <div class="footer__icons">
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-vk"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
