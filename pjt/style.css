@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Gilroy-bold';
+  src: url('fonts/Gilroy-SemiBold.eot');
+  src: local('fonts/Gilroy SemiBold'), local('Gilroy-SemiBold'),
+      url('fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Gilroy-SemiBold.woff') format('woff'),
+      url('fonts/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy-medium';
+  src: url('fonts/Gilroy-Medium.eot');
+  src: local('fonts/Gilroy Medium'), local('Gilroy-Medium'),
+      url('fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Gilroy-Medium.woff') format('woff'),
+      url('fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.wrap{
+  text-align: center;
+  margin-top: 44px;
+}
+.title{
+  font-family: 'Gilroy-bold';
+  font-size: 50px;
+  line-height: 75px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.innfo-wrap{
+  margin-left: 24px;
+  margin-right: 24px;
+  max-width: 560px;
+  box-shadow: -6px 11px 38px rgba(39, 39, 39, 0.32);
+  border-radius: 15px;
+  padding: 44px 107px;
+  margin: 42px auto;
+}
+.info-title{
+  font-family: 'Gilroy-bold';
+  color: #272727;
+  font-size: 24px;
+  margin-bottom: 17px;
+}
+.info-text{
+  font-family: 'Gilroy-medium';
+  display: block;
+  border: 2px solid #525252;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.img-1::before{
+  content: url(img/img-1.svg);
+  margin-right: 8px;
+}
+.img-2::before{
+  content: url(img/img-2.svg);
+  margin-right: 8px;
+}
+.img-3::before{
+  content: url(img/img-3.svg);
+  margin-right: 8px;
+}
+.img-3{
+  margin-bottom: 24px;
+}
+
+.info-btn{
+  font-family: 'Gilroy-bold';
+  color: #272727;
+  font-size: 16px;
+  background: #FFCC00;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 60px;
+}
+
+
+
+@media(max-width: 580px) {
+  .title{
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 17px;
+  }
+  .innfo-wrap{
+    max-width: 320px;
+    padding: 24px;
+    margin: 0 auto;
+  }
+  .info-title{
+    font-size: 18px;
+    margin-bottom: 17px;
+  }
+}
+
+@media(max-width: 380px) {
+  .innfo-wrap{
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
