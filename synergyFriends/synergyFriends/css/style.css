@@ -456,7 +456,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-right: 50px;
+  margin-right: 37px;
 }
 
 .invite__step::after {
