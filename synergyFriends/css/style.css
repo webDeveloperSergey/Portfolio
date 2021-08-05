@@ -62,7 +62,8 @@ a {
 .main {
   min-height: 462px;
   margin: 12px 0;
-  background: radial-gradient(75.09% 32.59% at 20.67% 77.6%, #FFD362 0%, rgba(255, 216, 10, 0) 100%), #FFA800;
+  background: url(../img/main/bg.png) right bottom/80% no-repeat, radial-gradient(75.09% 32.59% at 20.67% 77.6%, #FFD362 0%, rgba(255, 216, 10, 0) 100%), #FFA800;
+  image-rendering: crisp-edges;
   border-radius: 8px;
   position: relative;
 }
@@ -76,13 +77,6 @@ a {
 
 .main__subtitle {
   width: 90%;
-}
-
-.main::after {
-  content: url(../img/main/bg.png);
-  position: absolute;
-  bottom: -6px;
-  right: 0;
 }
 
 .start {
@@ -491,7 +485,8 @@ a {
 
 .get {
   min-height: 562px;
-  background: url(../img/footer/bg.png) right bottom no-repeat;
+  background: url(../img/footer/bg.png) right bottom/90% no-repeat;
+  image-rendering: crisp-edges;
 }
 
 .get__title {
