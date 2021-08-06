@@ -42,7 +42,7 @@ a{
 .main{
   min-height: 462px;
   margin: 12px 0;
-  background: url(../img/main/bg.png) right bottom / 85% no-repeat, radial-gradient(75.09% 32.59% at 20.67% 77.6%, #FFD362 0%, rgba(255, 216, 10, 0) 100%), #FFA800;
+  background: url(../img/main/bg.svg) right bottom / 300px no-repeat, radial-gradient(75.09% 32.59% at 20.67% 77.6%, #FFD362 0%, rgba(255, 216, 10, 0) 100%), #FFA800;
   image-rendering: crisp-edges;
   border-radius: 8px;
   position: relative;
@@ -396,7 +396,7 @@ a{
 // ==========> Get <==========
 .get{
   min-height: 562px;
-  background: url(../img/footer/bg.png) right bottom / 90% no-repeat;
+  background: url(../img/footer/bg.svg) right bottom / 300px no-repeat;
   image-rendering: crisp-edges;
   &__title{
     margin-right: 20px;
