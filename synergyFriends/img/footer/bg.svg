@@ -1,7 +1,7 @@
-<svg width="360" height="218" viewBox="0 0 360 218" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="69.7539" y="161.11" width="106.501" height="106.501" transform="rotate(-16.4036 69.7539 161.11)" fill="url(#pattern0)"/>
-<rect width="177.504" height="105.461" transform="matrix(-0.965926 -0.258819 -0.258819 0.965926 351.456 45.9414)" fill="url(#pattern1)"/>
-<rect x="12.9248" y="34.5799" width="93.7964" height="124.99" transform="rotate(-15 12.9248 34.5799)" fill="url(#pattern2)"/>
+<svg width="340" height="218" viewBox="0 0 340 218" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="57.7539" y="161.11" width="106.501" height="106.501" transform="rotate(-16.4036 57.7539 161.11)" fill="url(#pattern0)"/>
+<rect width="177.504" height="105.461" transform="matrix(-0.965926 -0.258819 -0.258819 0.965926 339.456 45.9414)" fill="url(#pattern1)"/>
+<rect x="0.924805" y="34.5799" width="93.7964" height="124.99" transform="rotate(-15 0.924805 34.5799)" fill="url(#pattern2)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="scale(0.00444444)"/>
