@@ -165,7 +165,9 @@ a {
 
 .pay__formula-img {
   display: block;
-  margin-left: 5px;
+  margin-left: -2px;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
 }
 
 .pay-what {
