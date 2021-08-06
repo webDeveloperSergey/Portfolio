@@ -125,7 +125,8 @@ a{
     justify-content: center;
     &-img{
       display: block;
-      margin-left: 5px;
+      margin-left: -2px;
+      transform: scale(.5);
     }
   }
 
