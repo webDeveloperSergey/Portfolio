@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>сортировка товара</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+  <section class="choice">
+    <div class="container">
+      <h2 class="choice__title">Выберете товар</h2>
+
+      <form class="choice__form">
+        <input type="text" class="choice__input choice__name" placeholder="Назавание товара">
+        <input type="text" class="choice__input choice__price-start" placeholder="Цена от">
+        <input type="text" class="choice__input choice__price-end" placeholder="Цена до">
+        <buttom class="choice__btn">Найти товар</buttom>
+      </form>
+      
+      <div class="choice__result">
+        <h2 class="choice__title-res">Результат поиска</h2>
+
+        <div class="choice__items">
+          <!-- <div class="choice__item">
+            <img src="" alt="" class="choice__img">
+            <h3 class="choice__title">Подшипник</h3>
+            <div class="choice__dscr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, nemo.</div>
+            <div class="choice__price">1000Р</div>
+          </div> -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="app.js" type="module"></script>
+  <script src="formatter.js" type="module"></script>
+</body>
+</html>
