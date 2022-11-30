@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habits Traker</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- MODAL WINDOW -->
+<div class="fade-block fade-block-none">
+
+  <div id="modal" data-modal class="modal-window">
+    <div class="modal-item">
+      <h2 class="modal-title">Set your goal</h2>
+      <input class="modal-input" type="text" placeholder="Run every morning ...">
+    </div>
+
+    <div class="modal-item">
+      <h2 class="modal-title">Choose icon</h2>
+      <div class="modal-wrap" id="choose-btn">
+        <div class="modal-selected-ic">
+          <img id="def" src="img/modal/def-ic.png" alt="" class="modal-moreic-img">
+        </div>
+        <span class="modal-text">you can choose another icon</span>
+        <img src="img/modal/arr.svg" alt="arrow" class="modal-arr">
+      </div>
+    </div>
+
+    <div class="modal-moreic-block">
+      <div class="modal-moreic__wrap content">
+      </div>
+    </div>
+
+    <button class="mode-create-btn">Create habit</button>
+  </div>
+
+</div>
+<!-- ./MODAL WINDOW -->
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header__wrap">
+    <h1 class="header__title">My challenges</h1>
+    <div class="header__btn">
+      <div class="header__btn-item"></div>
+    </div>
+  </div>
+
+  <div class="header__date">Wen, 23</div>
+</header>
+<!-- ./HEADER -->
+
+<!-- HABIT BLOCK -->
+<section class="habit-container">
+  <!-- Render Habits-->
+  <div class="habit">
+    <div class="habit__header">
+      <img id="def" src="img/modal/def-ic.png" alt="" class="modal-moreic-img">
+      <h2 class="habit__title"></h2>
+    </div>
+
+    <div class="habit__days">
+      <button class="habit__day">
+        M
+        <span class="habit__states">
+          <img class="habit__state habit__states-done" data-state="done" src="img/main/done-ic.svg" alt="">
+          <img class="habit__state habit__states-fail" data-state="fail" src="img/main/fail-ic.svg" alt="">
+        </span>
+      </button>
+      <button class="habit__day">
+        T
+        <span class="habit__states">
+          <img class="habit__state habit__states-done" data-state="done" src="img/main/done-ic.svg" alt="">
+          <img class="habit__state habit__states-fail" data-state="fail" src="img/main/fail-ic.svg" alt="">
+        </span>
+      </button>
+      <button class="habit__day">W
+        <span class="habit__states">
+          <img class="habit__state habit__states-done" data-state="done" src="img/main/done-ic.svg" alt="">
+          <img class="habit__state habit__states-fail" data-state="fail" src="img/main/fail-ic.svg" alt="">
+        </span>
+      </button>
+      <button class="habit__day">T
+        <span class="habit__states">
+          <img class="habit__state habit__states-done" data-state="done" src="img/main/done-ic.svg" alt="">
+          <img class="habit__state habit__states-fail" data-state="fail" src="img/main/fail-ic.svg" alt="">
+        </span>
+      </button>
+      <button class="habit__day">F
+        <span class="habit__states">
+          <img class="habit__state habit__states-done" data-state="done" src="img/main/done-ic.svg" alt="">
+          <img class="habit__state habit__states-fail" data-state="fail" src="img/main/fail-ic.svg" alt="">
+        </span>
+      </button>
+      <button class="habit__day">S
+        <span class="habit__states">
+          <img class="habit__state habit__states-done" data-state="done" src="img/main/done-ic.svg" alt="">
+          <img class="habit__state habit__states-fail" data-state="fail" src="img/main/fail-ic.svg" alt="">
+        </span>
+      </button>
+      <button class="habit__day">S
+        <span class="habit__states">
+          <img class="habit__state habit__states-done" data-state="done" src="img/main/done-ic.svg" alt="">
+          <img class="habit__state habit__states-fail" data-state="fail" src="img/main/fail-ic.svg" alt="">
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+<!-- ./HABIT BLOCK -->
+
+<script src="createHabit.js" type="module"></script>
+<script src="renderHabit.js" type="module"></script>
+<script src="renderDate.js" type="module"></script>
+</body>
+</html>
